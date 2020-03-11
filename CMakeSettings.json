@@ -1,0 +1,17 @@
+﻿{
+  "configurations": [
+    {
+      "name": "arm-none-eabi",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [
+        "gcc-arm"
+      ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "variables": []
+    }
+  ]
+}
